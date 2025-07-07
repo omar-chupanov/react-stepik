@@ -5,6 +5,7 @@ import './App.css'
 import ClickCounter from './ClickCounter'
 import CountdownTimer from './CountdownTimer'
 import Form from './Form'
+import UserProfile from './UserProfile'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <ClickCounter></ClickCounter>
       <CountdownTimer/>
       <Form></Form>
+      <UserProfile></UserProfile>
     </>
   )
 }
