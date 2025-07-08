@@ -7,6 +7,7 @@ import CountdownTimer from './CountdownTimer'
 import Form from './Form'
 import UserProfile from './UserProfile'
 import ProductCounter from './ProductCounter'
+import VisibilityToggle from './VisibilityToggle'
 
 function App() {
 
@@ -18,6 +19,8 @@ function App() {
       <UserProfile></UserProfile>
 
       <ProductCounter></ProductCounter>
+
+      <VisibilityToggle/>
     </>
   )
 }
