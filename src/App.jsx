@@ -8,6 +8,7 @@ import Form from './Form'
 import UserProfile from './UserProfile'
 import ProductCounter from './ProductCounter'
 import VisibilityToggle from './VisibilityToggle'
+import Tabs from './Tabs'
 
 function App() {
 
@@ -21,6 +22,8 @@ function App() {
       <ProductCounter></ProductCounter>
 
       <VisibilityToggle/>
+
+      < Tabs/>
     </>
   )
 }
