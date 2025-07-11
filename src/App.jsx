@@ -9,6 +9,7 @@ import UserProfile from './UserProfile'
 import ProductCounter from './ProductCounter'
 import VisibilityToggle from './VisibilityToggle'
 import Tabs from './Tabs'
+import ActionLogger from './ActionLogger'
 
 function App() {
 
@@ -24,6 +25,8 @@ function App() {
       <VisibilityToggle/>
 
       < Tabs/>
+
+      <ActionLogger/>
     </>
   )
 }
