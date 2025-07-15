@@ -9,7 +9,7 @@ export default function SortableList() {
 
     return (
         <div>
-            <button onClick={()=> setUsers([...users].sort())}>Сортировка</button>
+            <button onClick={()=> setUsers([...users].sort((a,b)=> a.name - b.name))}>Сортировка</button>
             <ul>
                 {users.map(user => (<li key={user.id}>
                     {user.name}

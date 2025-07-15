@@ -5,6 +5,7 @@ import './App.css'
 import ShoppingCart from './ShoppingCart'
 import PauseableTimer from './PauseableTimer'
 import SortableList from './SortableList'
+import DelayedUpdateCounter from './DelayedUpdateCounter'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     <SortableList />
     <PauseableTimer />
       <ShoppingCart />
+      <DelayedUpdateCounter />
     </>
   )
 }
