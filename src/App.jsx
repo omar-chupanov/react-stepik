@@ -6,12 +6,14 @@ import ShoppingCart from './ShoppingCart'
 import PauseableTimer from './PauseableTimer'
 import SortableList from './SortableList'
 import DelayedUpdateCounter from './DelayedUpdateCounter'
+import AutoCountdown from './AutoCountdown'
 
 function App() {
 
   return (
     <>
-    <SortableList />
+    <AutoCountdown/>
+    {/* <SortableList /> */}
     <PauseableTimer />
       <ShoppingCart />
       <DelayedUpdateCounter />
